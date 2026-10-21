@@ -1,0 +1,24 @@
+name: "💡 Idea"
+description: A layer, data source or feature you would like to see.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      placeholder: "Show volcano eruptions next to the earthquakes."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would you use it?
+      description: Who would it help - a class, a project, your own curiosity?
+    validations:
+      required: false
+  - type: input
+    id: source
+    attributes:
+      label: Do you know a free, open data source for it?
+    validations:
+      required: false

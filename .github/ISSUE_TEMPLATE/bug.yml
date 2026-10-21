@@ -1,0 +1,60 @@
+name: "🐞 Something doesn't work"
+description: A button, layer, card or the page does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time! Issues are **public** - please don't include personal details.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, and what did you see?
+      placeholder: "I turned on Weather > Earthquakes and clicked a circle near Japan, but no card opened."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: false
+  - type: input
+    id: where
+    attributes:
+      label: Which layer or place?
+      placeholder: "Economy > GDP, country card for Brazil"
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Phone
+        - Tablet
+        - Computer
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Safari
+        - Chrome
+        - Firefox
+        - Edge
+        - Brave
+        - Samsung Internet
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: A screenshot helps a lot - paste or drag it here.
+    validations:
+      required: false

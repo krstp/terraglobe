@@ -1,0 +1,35 @@
+name: "📊 Wrong or missing data"
+description: A number, name or place on the map looks wrong or is missing.
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Each layer names its source in its legend. If the source itself has the wrong figure, we may not be able to change it - but we still want to know.
+  - type: input
+    id: where
+    attributes:
+      label: Which layer and place?
+      placeholder: "People > Population, Nigeria"
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What looks wrong?
+      placeholder: "The map shows 150 million; the latest UN figure is about 230 million."
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where can the right figure be checked?
+      description: A link to an official or reliable source, if you have one.
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+    validations:
+      required: false

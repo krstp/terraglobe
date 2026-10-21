@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Open TerraGlobe
+    url: https://terraglobe.org
+    about: The globe itself.
+  - name: How to cite TerraGlobe
+    url: https://terraglobe.org/#cite
+    about: How to credit the site and its data sources.
+  - name: Contact privately
+    url: https://terraglobe.org/#privacy
+    about: Prefer not to post in public? The contact address is in the Privacy dialog.
