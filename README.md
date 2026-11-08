@@ -72,8 +72,8 @@ You need a free GitHub account to post. Issues here are **public**, so please do
 
 ## Using TerraGlobe
 
-- **Education** (schools, universities, students, teachers, researchers): free.
-- **Business or private-interest use**: needs a paid licence - get in touch via the contact address on the site.
+- **Free**: learning, teaching and personal use - students, teachers in their own classes, schools, universities, researchers and anyone exploring the world for themselves. Credited screenshots in lessons, papers, articles and talks are welcome.
+- **Paid licence**: commercial use - anything sold, charged for or used in a business, for example paid courses or programmes built on TerraGlobe (also for schools), company work, apps, embedding the map or republishing its data. Get in touch via the contact address on the site.
 - **Citing**: credit "TerraGlobe (terraglobe.org)" together with the source named in the layer's legend. Details: [How to cite](https://terraglobe.org/#cite).
 - **Privacy**: no cookies, no analytics, no ads. Details: [Privacy](https://terraglobe.org/#privacy).
 
